@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bHXc1tE+A+N/4p2OdwxWwi7CiSwMZW0ftgAB8QQ17/Q6dUKL61NpkQd51Dxvwb+K1LrcDBbHn8E4FyIIFtrRSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\norma\\Desktop\\Programacion\\pruebaInventario\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\norma\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

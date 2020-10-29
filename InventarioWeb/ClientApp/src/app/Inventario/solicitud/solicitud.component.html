@@ -1,0 +1,127 @@
+<form>
+    <div class="container">​
+
+        <div class="row">​
+
+            <div class="col-md-6 offset-md-3">​
+
+                <h2>Registro de Personas</h2>​
+
+                <form>​
+
+                    ​
+                    ​
+
+                    <div class="form-group">​
+
+                        <label>Identificacion</label>​
+
+                        <input type="text" name="identificacion" [(ngModel)]="solicitud.identificacion"
+                            class="form-control" required />​
+
+                    </div>​
+
+                    ​
+                    <div class="form-group">​
+
+                        <label>Nombre</label>​
+
+                        <input type="text" name="nombre" [(ngModel)]="solicitud.nombre" class="form-control"
+                            required />​
+
+                    </div>​
+
+                    <div class="form-group">​
+
+                        <label>sexo</label>​
+                        <select class="form-control" [(ngModel)]="solicitud.sexo" name="sexo" id="sexo">
+                            <option selected>Seleccionar</option>
+                            <option>Femenino</option>
+                            <option>Masculino</option>
+                        </select>
+                        ​
+
+                    </div>​
+
+                    <div class="form-group">​
+
+                        <label>Edad</label>​
+
+                        <input type="number" name="edad" [(ngModel)]="solicitud.edad" class="form-control" required />​
+
+                    </div>
+
+                    <div class="form-group row">​
+                        <label>Asignatura</label>​
+                        <select class="form-control" [(ngModel)]="stringAsignaturaa" name="stringAsignaturaa"
+                            id="stringAsignaturaa">
+                            <option selected>Seleccionar</option>
+                            <option *ngFor="let asignatura of asignaturas; index as i">
+                                {{asignatura.nombre}};{{asignatura.codigo}} </option>
+
+                        </select>
+                    </div>​
+
+                    <div class="form-group">
+                        <div class="row">​
+
+                            <div>
+                                <label>Detalles</label>​
+                                <select class="form-control" [(ngModel)]="stringInsumo" name="vehiculo" id="vehiculo">
+                                    <option selected>Seleccionar</option>
+                                    <option *ngFor="let insumo of insumos; index as i">
+                                        {{insumo.nombre}};{{insumo.codigo}}</option>
+                                </select>
+                            </div>
+
+                            <div>​
+                                <label>Cantidad</label>​
+                                <input type="number" name="edad" [(ngModel)]="detalle.cantidad" class="form-control"
+                                    required />​
+                            </div>
+
+
+                        </div>
+                        <button class="btn btn-primary mr-1" (click)="anadirDetalles()">Añadir</button>
+
+                    </div>
+                    ​
+                    ​
+
+                    <div *ngIf='option == true'>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Lista Detalles</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr *ngFor="let detalle of detalles; index as i ">
+                                    <th scope="row">{{ i + 1 }}</th>
+                                    <td class="lalign"> {{ detalle.insumo.nombre }}</td>
+                                    <td class="lalign"> {{ detalle.cantidad }}</td>
+                                    <td class="lalign"> <a
+                                            (click)="eliminarDetalles(detalle.insumo.codigo)">Eliminar</a> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="text-center">​
+
+                        <button class="btn btn-primary mr-1" (click)="add()">Register</button>​
+                        <button class="btn btn-secondary" (click)="resete()" type="reset">Cancel</button>​
+
+                    </div>​
+
+                </form>​
+
+            </div>​
+
+        </div>​
+
+    </div>​
+
+</form>

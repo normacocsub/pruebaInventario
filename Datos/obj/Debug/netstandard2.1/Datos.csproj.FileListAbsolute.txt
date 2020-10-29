@@ -1,0 +1,12 @@
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\bin\Debug\netstandard2.1\Datos.dll
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\bin\Debug\netstandard2.1\Datos.pdb
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\bin\Debug\netstandard2.1\Entity.dll
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\bin\Debug\netstandard2.1\Entity.pdb
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.dll
+C:\Users\norma\Desktop\Programacion\pruebaInventario\Datos\obj\Debug\netstandard2.1\Datos.pdb
